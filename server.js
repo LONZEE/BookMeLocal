@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Setup Handlebars
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs);
 app.set('view engine', 'handlebars');
 
 // Body Parser Middleware
